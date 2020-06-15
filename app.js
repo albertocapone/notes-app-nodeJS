@@ -1,7 +1,7 @@
 const fs = require('fs');
 const chalk = require('chalk');
 const yargs = require('yargs');
-const notesUtils = require('./notes.js');
+const notesUtils = require('./notesUtils.js');
 
 yargs.version('1.1.0')
 
