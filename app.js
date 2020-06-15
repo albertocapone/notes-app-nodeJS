@@ -22,7 +22,7 @@ yargs.command({
              }
          },
     handler(input) {
-        notesUtils.addNote(input.title, input.body)
+        notesUtils.addNote(input.title, input.content)
     }
 })
 
